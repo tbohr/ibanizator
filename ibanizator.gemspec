@@ -22,12 +22,12 @@ Gem::Specification.new do |s|
 
   s.files = Dir.glob('lib/**/*') + %w[license.md README.md db/blz.txt]
 
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 2.0.0'
 
   s.add_dependency 'adamantium', '~> 0.2.0'
   s.add_dependency 'equalizer', '~> 0.0.11'
 
-  s.add_development_dependency 'bundler', '~> 2.1'
-  s.add_development_dependency 'rake', '~> 12.3'
-  s.add_development_dependency 'rspec', '~> 3.9'
+  #s.add_development_dependency 'bundler', '~> 2.1'
+  #s.add_development_dependency 'rake', '~> 12.3'
+  #s.add_development_dependency 'rspec', '~> 3.9'
 end
